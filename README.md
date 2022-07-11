@@ -3,10 +3,10 @@ Binary Classification using different Machine Learning Models, Feature Extractio
 
 # **Table of Contents**
 
-1. [Introduction and Instructions](#my-first-title)
-2. [Overview of Learning from the Specialization](#my-second-title)
-3. [Labs and Projects](#my-third-title)
-4. [Results and Conclusion](#my-fourth-title)
+1. [Instruction](#my-first-title)
+2. [Method](#my-second-title)
+3. [Result](#my-third-title)
+4. [Usage](#my-fourth-title)
 
 ## **Introduction and Instructions**
 This report is aimed at explaining the methodology that was chosen to analyze and do the binary classification based on clients’ data set for prediction of Default status of the clients. 
