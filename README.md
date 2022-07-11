@@ -1,4 +1,4 @@
-# Binary-Classification
+# Binary-Classification(Loan Allowance)
 Binary Classification using different Machine Learning Models, Feature Extraction and Preprocessing, Business Overview and Analysis.
 
 # **Table of Contents**
