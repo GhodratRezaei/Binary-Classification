@@ -224,3 +224,8 @@ For such task models including Decision tree, SVM, KNN, Logistic Regression and 
 
 ![Capture](https://user-images.githubusercontent.com/75788150/178351891-a33c9712-7b9f-47aa-9156-3e9cef04d423.PNG)
 
+
+
+## Usage
+
+Use Jupiter or Google Colab for running the algorithm
