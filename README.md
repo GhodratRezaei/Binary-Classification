@@ -205,13 +205,14 @@ If we use all features, area under roc curve for logistic regression model is 0.
 
 
 
-#### ** 3.2. Logistic Regression**
+## Result
+### **Logistic Regression**
 
 
 AUC - ROC curve is a performance measurement for the classification problems at various threshold settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes. Higher the AUC, the better the model is at predicting 0 classes as 0 and 1 classes as 1. By analogy, the Higher the AUC, the better the model is at distinguishing between bad customers and good customers. In our policy, we want to avoid giving loan to those who are not capable of return it, and also giving loan to those who can return it back. To decrease the risk of not losing from money from bad customers (False Positive Rate) and not losing good customer (True Positive Rate or Recall), ROC curve model is used to establish a balance between two criteria. However, in different case, different criteria can be used. As an example, for conservative policy, only decreasing FPR (false positive rate) would be a acceptable approach. In this case False Positive Rate is (FP/(FP+TN) = 241/ (1058+241) = 0.18) and True Positive Rate (Recall) is 0.8914.
 
 
-#### ** 3.2. Other Models' Performances**
+### **Other Models' Performances**
 
 As shown in table 3, SVM, Random Forest and MLP have overfitting behavior of about 4 percent that could be a very complicated structure of the model during training. Maximum overfitting is for MLP (Deep Learning) which is an issue. To be mentioned that training a custom Deep Learning model with custom activation function, layers, optimization, recall (to stop overfitting) would have the best performance. As can be seen in the table the maximum performance in training set is for MLP with 0.96, since I use MLP from the Sklearn it is hard to solve this issue. Using TensorFlow and adapting Custom model would probably be the best solution. It also allows us to capture nonlinearity behavior of the data using different activation function.
 In addition, SVM like Logistic Regression has area under ROC curve of 0.93 for both test and training set, meaning that it is one the best model for binary classification (this task). An SVM classifies data by finding the best hyperplane that separates all data points of one class from those of the other class. The best hyperplane for an SVM means the one with the largest margin between the two classes. Since the feature mostly linearly dependent on target, this model could be very rigid
